@@ -6,3 +6,5 @@ Our commitment extends to environmental conservation and enhancing operational e
 Our platform offers a convenient feature enabling users to capture and upload images of accumulated waste items at their location. Once uploaded via our app, we facilitate the redistribution of these items to those in need. This innovative process transforms surplus waste into valuable resources, fostering a more sustainable and altruistic approach to waste management. With just a few clicks, users can contribute to the efficient redistribution of items, reducing waste and aiding those who can benefit from them.
 
 
+![Craft appealing, intuitive e-commerce page with seamless navigation, vibrant visuals, and user-friendly interactions  (1)](https://github.com/Kanisk2125/VHACK2/assets/105097052/f4a16697-0e96-4d0e-b81d-c06b6c9faed4)
+
