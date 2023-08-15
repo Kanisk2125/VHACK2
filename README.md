@@ -1,70 +1,8 @@
 
-# kanisk_s_application18
+#Problem Statement and Solution:
 
-Built with AndroidX Support
-
-Requires Android Studio Arctic Fox | 2020.3.1 or higher.
-
-Current Kotlin Version 1.7.20
+We are addressing the critical challenges of waste recycling and recognizing the pressing needs in this field. Our approach involves leveraging cutting-edge technology to develop solutions that meet these needs. The significance of all-in-one platforms for waste management cannot be overstated, as they enable the accurate tracking of vast amounts of data, crucial for maintaining environmental safety.
+Our commitment extends to environmental conservation and enhancing operational efficiency and safety. Through our advanced solutions, encompassing every step from collection to recycling, you'll gain access to comprehensive data and streamlined processes. This enables seamless tracking, monitoring, control, and reporting, ultimately leading to time and cost savings while boosting overall efficiency.
+Our platform offers a convenient feature enabling users to capture and upload images of accumulated waste items at their location. Once uploaded via our app, we facilitate the redistribution of these items to those in need. This innovative process transforms surplus waste into valuable resources, fostering a more sustainable and altruistic approach to waste management. With just a few clicks, users can contribute to the efficient redistribution of items, reducing waste and aiding those who can benefit from them.
 
 
-### SDK Versions
-
-compileSdkVersion 33
-
-buildToolsVersion "30.0.3"
-
-minSdkVersion 23
-
-targetSdkVersion 33
-
-
-### Libraries
-
-1. Retrofit- REST API Call
-https://square.github.io/retrofit/
-2. Glide - Image Loading and caching.
-https://github.com/bumptech/glide
-3. Material Design Components - Google's latest Material Components.
-https://material.io/develop/android
-4. koin - Dependency Injection
-https://insert-koin.io/
-
-### Figma design guideline for better accuracy
-
-Read our guidelines to increase the accuracy of design conversion to code by optimizing Figma designs. 
-https://docs.dhiwise.com/docs/Designguidelines/intro .
-
-### App Navigation
-
-Check your app\'s UI from the AppNavigation screens of your app.
-
-### Package Structure
-
-
-```
-├── appcomponents       
-│ ├── di                 - Dependency Injection Components 
-│ │ └── MyApp.kt
-│ ├── network            - REST API Call setup
-│ │ ├── ResponseCode.kt
-│ │ └── RetrofitProvider.kt
-│ └── ui                 - Data Binding Utilities
-│     └── CustomBindingAdapter.kt
-├── constants            - Constant Files
-│ ├── IntegerConstants.kt
-│ └── StringConstants.kt
-├── extensions           - Kotlin Extension Function Files
-│ └── Strings.kt
-├── modules              - Application Specific code
-│ └── example            - A module of Application 
-│  ├── ui                - UI handling classes
-│  └── data              - Data Handling classes
-│    ├── viewmodel       - ViewModels for the UI
-│    └── model           - Model for the UI
-└── network              - REST API setup
-  ├── models             - Request/Response Models
-  ├── repository         - Network repository
-  ├── resources          - Common classes for API
-  └── RetrofitService.kt
-```
