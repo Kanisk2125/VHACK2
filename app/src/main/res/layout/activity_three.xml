@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="threeVM" type="com.kanisksapplication.app.modules.three.data.viewmodel.ThreeVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameThree"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylelight_green_A200">
+        <ImageView android:id="@+id/imageNarrowremoveb"
+            android:layout_gravity="top|center"
+            android:layout_height="@dimen/_174pxh"
+            android:layout_marginBottom="@dimen/_184pxv"
+            android:layout_marginEnd="@dimen/_61pxh"
+            android:layout_marginStart="@dimen/_61pxh"
+            android:layout_marginTop="@dimen/_184pxv"
+            android:layout_width="@dimen/_235pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_narrowremoveb}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_narrowremoveb"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtReecle"
+            android:layout_gravity="bottom|center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_266pxv"
+            android:layout_marginEnd="@dimen/_92pxh"
+            android:layout_marginStart="@dimen/_92pxh"
+            android:layout_marginTop="@dimen/_266pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{threeVM.threeModel.txtReecle}"
+            style="@style/txtInriaSansregular59" tools:text="@string/lbl_reecle"/>
+        <TextView android:ellipsize="end" android:gravity="top|start"
+            android:id="@+id/txtRecyclingmade"
+            android:layout_gravity="bottom|center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_80pxh"
+            android:layout_marginStart="@dimen/_80pxh"
+            android:layout_marginTop="@dimen/_20pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{threeVM.threeModel.txtRecyclingmade}"
+            style="@style/txtInriaSerifregular19" tools:text="@string/msg_recycling_made"/>
+    </FrameLayout>
+</layout>

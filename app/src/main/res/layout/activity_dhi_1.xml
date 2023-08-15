@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="dhi1VM" type="com.kanisksapplication.app.modules.dhi1.data.viewmodel.Dhi1VM"/>
+    </data>
+    <LinearLayout android:gravity="end"
+        android:id="@+id/linearColumnpremiumvector"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ImageView android:gravity="start"
+            android:id="@+id/imagePremiumVector"
+            android:layout_height="@dimen/_412pxv"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_premiumvector}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_premiumvector"/>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtWelcometoReec"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_55pxh"
+            android:layout_marginStart="@dimen/_57pxh"
+            android:layout_marginTop="@dimen/_14pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{dhi1VM.dhi1Model.txtWelcometoReec}"
+            style="@style/txtInriaSansregular29" tools:text="@string/msg_welcome_to_reec"/>
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtRecleeisthes"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_43pxh"
+            android:layout_marginStart="@dimen/_57pxh"
+            android:layout_marginTop="@dimen/_15pxv"
+            android:layout_width="match_parent"
+            android:text="@{dhi1VM.dhi1Model.txtRecleeisthes}"
+            style="@style/txtInriaSansregular15" tools:text="@string/msg_reclee_is_the_s"/>
+        <ImageButton
+            android:background="@drawable/rectangle_bg_light_green_a200_radius_32_5"
+            android:id="@+id/btnForward"
+            android:layout_height="@dimen/_65pxh"
+            android:layout_marginBottom="@dimen/_21pxv"
+            android:layout_marginStart="@dimen/_10pxh"
+            android:layout_marginTop="@dimen/_37pxv"
+            android:layout_width="@dimen/_67pxh"
+            android:paddingHorizontal="@dimen/_9pxh"
+            android:paddingVertical="@dimen/_9pxv"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_forward" tools:ignore="ContentDescription"/>
+    </LinearLayout>
+</layout>

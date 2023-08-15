@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="eightVM" type="com.kanisksapplication.app.modules.eight.data.viewmodel.EightVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnusegentlyrec"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_26pxv"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true" android:gravity="start"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:id="@+id/linearEight"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearColumnarrowleft"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStylelight_green_A200cornerRadius">
+                    <ImageView android:id="@+id/imageArrowleft"
+                        android:layout_height="@dimen/_16pxh"
+                        android:layout_marginEnd="@dimen/_22pxh"
+                        android:layout_marginStart="@dimen/_22pxh"
+                        android:layout_marginTop="@dimen/_15pxv"
+                        android:layout_width="@dimen/_29pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_arrowleft"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft"/>
+                    <TextView android:id="@+id/txtBuyingOurRecy"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_27pxh"
+                        android:layout_marginStart="@dimen/_27pxh"
+                        android:layout_marginTop="@dimen/_6pxv"
+                        android:layout_width="match_parent"
+                        android:text="@{eightVM.eightModel.txtBuyingOurRecy}"
+                        style="@style/txt" tools:text="@string/msg_buying_our_recy"/>
+                    <FrameLayout
+                        android:id="@+id/frameStackindianwomanis"
+                        android:layout_height="@dimen/_132pxv"
+                        android:layout_marginBottom="@dimen/_19pxv"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_1pxh"
+                        android:layout_marginTop="@dimen/_19pxv" android:layout_width="@dimen/_338pxh">
+
+                        <ImageView
+                            android:id="@+id/imageIndianwomanis"
+                            imageRes="@{@drawable/img_indianwomanis}"
+                            android:layout_width="153dp"
+                            android:layout_height="172dp"
+                            android:layout_gravity="start"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:scaleType="fitXY"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/img_indianwomanis" />
+
+                        <TextView
+                            android:id="@+id/txtDescription"
+                            style="@style/txt_1"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top|end"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginBottom="@dimen/_10pxv"
+                            android:gravity="top|end"
+                            android:text="@{eightVM.eightModel.txtDescription}"
+                            tools:text="@string/msg_but_also_helps" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearColumnbuyhandmadere"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_33pxh"
+                    android:layout_marginStart="@dimen/_33pxh"
+                    android:layout_marginTop="@dimen/_35pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStylegreen_A700cornerRadius">
+                    <TextView android:gravity="center_horizontal"
+                        android:id="@+id/txtBuyHandmadeRe"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/_4pxv"
+                        android:layout_marginEnd="@dimen/_15pxh"
+                        android:layout_marginStart="@dimen/_9pxh"
+                        android:layout_marginTop="@dimen/_15pxv"
+                        android:layout_width="match_parent"
+                        android:text="@{eightVM.eightModel.txtBuyHandmadeRe}"
+                        style="@style/txtIntersemibold20" tools:text="@string/msg_buy_handmade_re"/>
+                </LinearLayout>
+                <TextView android:gravity="end"
+                    android:id="@+id/txtUsegentlyrec"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_18pxh"
+                    android:layout_marginStart="@dimen/_18pxh"
+                    android:layout_marginTop="@dimen/_9pxv"
+                    android:layout_width="match_parent"
+                    android:text="@{eightVM.eightModel.txtUsegentlyrec}"
+                    style="@style/txtK2Dlightitalic18" tools:text="@string/msg_use_gently_rec"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnBuyScrapInBulkOne"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_39pxh"
+                    android:layout_marginStart="@dimen/_39pxh"
+                    android:layout_marginTop="@dimen/_36pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_18pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_18pxv"
+                    android:singleLine="true"
+                    android:text="@string/msg_buy_scrap_in_bu"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded" tools:text="@string/msg_buy_scrap_in_bu"/>
+                <TextView android:gravity="end"
+                    android:id="@+id/txtUsegentlyrecOne"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_18pxh"
+                    android:layout_marginStart="@dimen/_18pxh"
+                    android:layout_marginTop="@dimen/_9pxv"
+                    android:layout_width="match_parent"
+                    android:text="@{eightVM.eightModel.txtUsegentlyrecOne}"
+                    style="@style/txtK2Dlightitalic18" tools:text="@string/msg_use_gently_rec"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

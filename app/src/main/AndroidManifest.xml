@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.kanisksapplication.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.kanisksapplication.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.kanisksapplication.app.modules.four.ui.FourActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.kanisksapplication.app.modules.dhi1.ui.Dhi1Activity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kanisksapplication.app.modules.two.ui.TwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kanisksapplication.app.modules.six.ui.SixActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kanisksapplication.app.modules.eight.ui.EightActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kanisksapplication.app.modules.five.ui.FiveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kanisksapplication.app.modules.nine.ui.NineActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kanisksapplication.app.modules.three.ui.ThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kanisksapplication.app.modules.seven.ui.SevenActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

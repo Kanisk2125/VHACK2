@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="sevenRowModel" type="com.kanisksapplication.app.modules.seven.data.model.SevenRowModel"/>
+    </data>
+
+    <LinearLayout
+        android:id="@+id/linearRownewspapers"
+        style="@style/groupStylegray_100cornerRadius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linearColumnnewspapers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5pxh"
+            android:layout_marginTop="@dimen/_4pxv"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_weight="0.71"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtNewspapers"
+                style="@style/txtKellySlabregular16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8pxh"
+                android:text="@{sevenRowModel.txtNewspapers}"
+                tools:text="@string/lbl_news_papers" />
+
+            <LinearLayout
+                android:id="@+id/linearRowone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2pxv"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtOne"
+                    style="@style/txtKellySlabregular16"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_marginBottom="@dimen/_5pxv"
+                    android:layout_weight="0.17"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@{sevenRowModel.txtOne}"
+                    tools:text="@string/lbl2" />
+
+                <TextView
+                    android:id="@+id/txtLanguageOne"
+                    style="@style/txtKarmaregular16"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_3pxh"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_weight="0.52"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@{sevenRowModel.txtLanguageOne}"
+                    tools:text="@string/lbl_9_12" />
+
+                <TextView
+                    android:id="@+id/txtKg"
+                    style="@style/txtKavivanarregular12"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16pxv"
+                    android:layout_weight="0.31"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@{sevenRowModel.txtKg}"
+                    tools:text="@string/lbl_kg" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageImageFive"
+            android:layout_width="@dimen/_23pxh"
+            android:layout_height="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_12pxh"
+            android:layout_marginTop="@dimen/_4pxv"
+            android:layout_marginEnd="@dimen/_3pxh"
+            android:layout_marginBottom="@dimen/_53pxv"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_image5"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/img_image5" />
+    </LinearLayout>
+</layout>

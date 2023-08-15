@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">kanisk_s_application18</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="msg_select_the_ite">Select the 
+items for pickup</string>
+<string name="lbl_brass">Brass</string>
+<string name="lbl_e_waste">E-Waste</string>
+<string name="msg_reclee_is_the_s">Reclee is the source to earn rewards just by recycling your home or office waste</string>
+<string name="msg_handmade_recycl">Handmade Recycled Products</string>
+<string name="lbl_email_address">Email Address</string>
+<string name="lbl_contact_no">Contact No.</string>
+<string name="lbl_donate">DONATE</string>
+<string name="msg_welcome_to_reec">Welcome to Reecle</string>
+<string name="msg_new_user_sign">New User? Sign up Now!
+Or
+ Login using </string>
+<string name="lbl_plastic">Plastic</string>
+<string name="lbl2">\u20b9</string>
+<string name="msg_fill_in_the_det">Fill in the details correctly</string>
+<string name="lbl_confirm">CONFIRM</string>
+<string name="lbl_100">\u20b9 100</string>
+<string name="lbl_9_12">9-12 </string>
+<string name="msg_wooden_cutlery">Wooden cutlery set - 7 
+piece set | Reusable </string>
+<string name="msg_handbags_handpu">Handbags,handpurse,clutch
+-set of six beautiful and   durable bags</string>
+<string name="lbl_gery_board">Gery
+board</string>
+<string name="lbl_reecle">Reecle</string>
+<string name="lbl_metals">Metals</string>
+<string name="msg_scrap_item">scrap item             Pickup Date           Confirm</string>
+<string name="lbl_4_9">4.9</string>
+<string name="lbl_cardboard">Cardboard</string>
+<string name="lbl_log_in">Log in</string>
+<string name="lbl_good_evening"> Good evening,</string>
+<string name="msg_join_the_moveme">Join the movement to living more sustainably and feeling about the products you dispose</string>
+<string name="msg_recycled_newspa">Recycled Newspaper Coaster Set Of Six - Multicoloured Coasters</string>
+<string name="lbl_4_1">4.1</string>
+<string name="lbl_4_0">4.0</string>
+<string name="lbl_4_3">4.3</string>
+<string name="lbl_other_items">Other-items</string>
+<string name="lbl_4_92">4-9</string>
+<string name="msg_book_an_appoint">Book an Appointment</string>
+<string name="lbl_news_papers">News
+papers</string>
+<string name="msg_but_also_helps">But Also Helps Raise Employment for
+Thousands of Rural
+Women.</string>
+<string name="lbl_aluminium">Aluminium</string>
+<string name="lbl">-</string>
+<string name="msg_shop_with_us">Shop With Us !!  
+eco-friendly products at lowest prices</string>
+<string name="msg_upload_scrap_im">Upload Scrap image for a faster pickup</string>
+<string name="lbl_79_sold">79 Sold</string>
+<string name="msg_buying_our_recy">Buying Our Recycled Items Not Only Helps to Save Environment</string>
+<string name="lbl_175">\u20b9 175</string>
+<string name="msg_use_gently_rec">(Use gently recycled products for your home and office and save our ecosystem.)</string>
+<string name="lbl_help_the_needy">help the needy</string>
+<string name="msg_set_of_six_beau">set of six beautiful and   durable bags</string>
+<string name="msg_it_s_easier_to">It\u2019s easier to Log in now!</string>
+<string name="msg_beer_bottles_m">Beer-Bottles,
+Machines,
+coolers,etc</string>
+<string name="lbl_80">\u20b9 80</string>
+<string name="msg_newspapers_car">Newspapers,
+Cardboards etc.</string>
+<string name="lbl_802">80</string>
+<string name="msg_what_would_you">What would you like to sell?</string>
+<string name="msg_buy_scrap_in_bu">Buy Scrap in Bulk</string>
+<string name="msg_handbags_handpu2">Handbags,handpurse,clutch
+</string>
+<string name="msg_buy_handmade_re">Buy Handmade Recycled
+Products</string>
+<string name="lbl_115_sold">115 Sold</string>
+<string name="lbl_6">6</string>
+<string name="msg_click_and_choos">Click and Choose your delivery partner</string>
+<string name="lbl_238_sold">238 Sold</string>
+<string name="lbl_papers">Papers</string>
+<string name="lbl_480">\u20b9 480</string>
+<string name="lbl_venue">Venue</string>
+<string name="lbl_319_sold">319 Sold</string>
+<string name="msg_disks_magnets">Disks,magnets,
+chips,silicon-
+waste,etc.</string>
+<string name="msg_raise_pickup_re">Raise Pickup Request</string>
+<string name="lbl_kg">/kg</string>
+<string name="lbl_time">Time</string>
+<string name="lbl_iron">Iron</string>
+<string name="msg_recycling_made">Recycling made easy !</string>
+<string name="lbl_32">32</string>
+<string name="lbl_password">Password</string>
+<string name="msg_help_the_enviro">Help the environment while you earn</string>
+<string name="msg_prices_may_go_u">prices may go up or down because of recycling nidustry</string>
+<string name="lbl_select_date">Select Date</string>
+<string name="msg_oil_containers">Oil containers,
+Hard/soft plastic,
+etc</string>
+<string name="msg_sea_life_keyrin">Sea Life Keyring made from 100% Recycled Plastic</string>
+<string name="msg_recycled_newspa2">Recycled Newspaper Waste Paper Basket - Waste Paper Bin - Set 0f Six</string>
+<string name="msg_hanging_glass_b">Hanging Glass Bottle Candle Lamp - Made from Recycled 
+Glass Bottles</string>
+<string name="lbl_am_pm">Am/Pm</string>
+<string name="msg_utensils_cooler">Utensils,coolers
+drums,etc</string>
+<string name="lbl_197">197</string>
+<string name="msg_please_enter_valid_pa">Please enter valid password</string>
+<string name="msg_please_enter_valid_email">Please enter valid email</string>
+</resources>

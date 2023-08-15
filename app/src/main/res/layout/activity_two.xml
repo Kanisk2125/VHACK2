@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="twoVM" type="com.kanisksapplication.app.modules.two.data.viewmodel.TwoVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameTwo"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <LinearLayout android:id="@+id/linearColumnhelptheenviro"
+            android:layout_gravity="start"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_marginTop="@dimen/_6pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <FrameLayout android:id="@+id/frameStackhelptheenviro"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_489pxv"
+                android:layout_marginEnd="@dimen/_5pxh" android:layout_width="@dimen/_355pxh">
+                <TextView android:gravity="top|center"
+                    android:id="@+id/txtHelptheenviro"
+                    android:layout_gravity="bottom|center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_55pxh"
+                    android:layout_marginStart="@dimen/_55pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:text="@{twoVM.twoModel.txtHelptheenviro}"
+                    style="@style/txtInriaSansregular25" tools:text="@string/msg_help_the_enviro"/>
+                <ImageView android:id="@+id/imageIlustraodoc"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_424pxv"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_ilustraodoc}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_ilustraodoc"/>
+            </FrameLayout>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtJointhemoveme"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_47pxh"
+                android:layout_marginStart="@dimen/_54pxh"
+                android:layout_marginTop="@dimen/_5pxv"
+                android:layout_width="match_parent"
+                android:text="@{twoVM.twoModel.txtJointhemoveme}"
+                style="@style/txtInriaSansregular12" tools:text="@string/msg_join_the_moveme"/>
+            <LinearLayout android:gravity="end"
+                android:id="@+id/linearRowforward"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_12pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <LinearLayout android:id="@+id/linearRowellipsesix"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_58pxv"
+                    android:layout_weight="0.51"
+                    android:layout_width="0dp" android:orientation="horizontal">
+                    <View
+                        android:background="@drawable/rectangle_bg_teal_800_radius_8"
+                        android:id="@+id/viewEllipseSix"
+                        android:layout_height="@dimen/_15pxh"
+                        android:layout_marginBottom="@dimen/_3pxv"
+                        android:layout_marginTop="@dimen/_4pxv" android:layout_width="@dimen/_16pxh"/>
+                    <View
+                        android:background="@drawable/rectangle_bg_teal_800_radius_8_5"
+                        android:id="@+id/viewEllipseSixOne"
+                        android:layout_height="@dimen/_15pxh"
+                        android:layout_marginBottom="@dimen/_3pxv"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_4pxv" android:layout_width="@dimen/_17pxh"/>
+                    <View
+                        android:background="@drawable/rectangle_bg_teal_800_radius_12"
+                        android:id="@+id/viewEllipseSixTwo"
+                        android:layout_height="@dimen/_22pxh"
+                        android:layout_marginStart="@dimen/_9pxh" android:layout_width="@dimen/_24pxh"/>
+                </LinearLayout>
+                <FrameLayout android:id="@+id/frameStackforward"
+                    android:layout_height="@dimen/_65pxv"
+                    android:layout_marginBottom="@dimen/_15pxv"
+                    android:layout_marginStart="@dimen/_82pxh"
+                    android:layout_width="@dimen/_73pxh" style="@style/groupStylelight_green_1">
+                    <ImageView android:id="@+id/imageForward"
+                        android:layout_gravity="end"
+                        android:layout_height="@dimen/_30pxh"
+                        android:layout_marginBottom="@dimen/_17pxv"
+                        android:layout_marginEnd="@dimen/_11pxh"
+                        android:layout_marginStart="@dimen/_11pxh"
+                        android:layout_marginTop="@dimen/_17pxv"
+                        android:layout_width="@dimen/_33pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_forward"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_forward"/>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>
