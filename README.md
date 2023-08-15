@@ -7,4 +7,5 @@ Our platform offers a convenient feature enabling users to capture and upload im
 
 
 ![Craft appealing, intuitive e-commerce page with seamless navigation, vibrant visuals, and user-friendly interactions  (1)](https://github.com/Kanisk2125/VHACK2/assets/105097052/f4a16697-0e96-4d0e-b81d-c06b6c9faed4)
+![Optimize UI elements to minimize energy consumption, focusing on efficient code and reduced animations](https://github.com/Kanisk2125/VHACK2/assets/105097052/08d1da89-41f5-4763-9487-a27df78e04a8)
 
